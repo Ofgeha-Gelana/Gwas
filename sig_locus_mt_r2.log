@@ -8,11 +8,11 @@ Options in effect:
 
 Hostname: CBO
 Working directory: /home/ofge/Documents/icog/Gwas
-Start time: Mon Mar 10 09:10:42 2025
+Start time: Mon Mar 10 09:46:49 2025
 
-Random number seed: 1741587042
+Random number seed: 1741589209
 15771 MB RAM detected; reserving 7885 MB for main workspace.
 Error: Failed to open
 /data/1KG.EAS.auto.snp.norm.nodup.split.rare002.common015.missing.bed.
 
-End time: Mon Mar 10 09:10:42 2025
+End time: Mon Mar 10 09:46:49 2025
