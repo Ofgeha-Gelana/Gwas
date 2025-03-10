@@ -1,0 +1,18 @@
+PLINK v1.90b7 64-bit (16 Jan 2023)
+Options in effect:
+  --bfile /data/1KG.EAS.auto.snp.norm.nodup.split.rare002.common015.missing
+  --extract sig_locus.snplist
+  --keep-allele-order
+  --out sig_locus_mt
+  --r square
+
+Hostname: CBO
+Working directory: /home/ofge/Documents/icog/Gwas
+Start time: Mon Mar 10 09:10:42 2025
+
+Random number seed: 1741587042
+15771 MB RAM detected; reserving 7885 MB for main workspace.
+Error: Failed to open
+/data/1KG.EAS.auto.snp.norm.nodup.split.rare002.common015.missing.bed.
+
+End time: Mon Mar 10 09:10:42 2025
