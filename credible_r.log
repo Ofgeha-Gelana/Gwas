@@ -1,6 +1,6 @@
 PLINK v1.90b7 64-bit (16 Jan 2023)
 Options in effect:
-  --bfile ../data/1KG.EAS.auto.snp.norm.nodup.split.rare002.common015.missing
+  --bfile ./data/1KG.EAS.auto.snp.norm.nodup.split.rare002.common015.missing
   --extract credible.snplist
   --keep-allele-order
   --out credible_r
@@ -8,11 +8,20 @@ Options in effect:
 
 Hostname: CBO
 Working directory: /home/ofge/Documents/icog/Gwas
-Start time: Sat Mar 15 09:31:24 2025
+Start time: Sat Mar 15 09:39:36 2025
 
-Random number seed: 1742020284
+Random number seed: 1742020776
 15771 MB RAM detected; reserving 7885 MB for main workspace.
-Error: Failed to open
-../data/1KG.EAS.auto.snp.norm.nodup.split.rare002.common015.missing.bed.
+1235116 variants loaded from .bim file.
+504 people (0 males, 0 females, 504 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to credible_r.nosex .
+--extract: 5 variants remaining.
+Using up to 8 threads (change this with --threads).
+Before main variant filters, 504 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.995635.
+5 variants and 504 people pass filters and QC.
+Note: No phenotypes present.
+--r2 square to credible_r.ld ... done.
 
-End time: Sat Mar 15 09:31:24 2025
+End time: Sat Mar 15 09:39:36 2025
