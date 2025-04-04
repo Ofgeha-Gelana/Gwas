@@ -2,3 +2,5 @@ venv
 data
 *.fasta
 .qodo
+.env
+of
