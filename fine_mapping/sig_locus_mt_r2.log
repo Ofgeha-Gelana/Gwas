@@ -1,4 +1,4 @@
-PLINK v1.9.0-b.8 64-bit (22 Oct 2024)
+PLINK v2.0.0-a.6.9LM 64-bit Intel (29 Jan 2025)
 Options in effect:
   --bfile ../data/1KG.EAS.auto.snp.norm.nodup.split.rare002.common015.missing
   --extract sig_locus.snplist
@@ -8,20 +8,15 @@ Options in effect:
 
 Hostname: CBO
 Working directory: /home/ofge/Documents/icog/Gwas/fine_mapping
-Start time: Fri Apr  4 16:31:17 2025
+Start time: Mon Apr  7 09:57:24 2025
 
-Random number seed: 1743773477
-15771 MB RAM detected; reserving 7885 MB for main workspace.
-1235116 variants loaded from .bim file.
-504 people (0 males, 0 females, 504 ambiguous) loaded from .fam.
-Ambiguous sex IDs written to sig_locus_mt_r2.nosex .
---extract: 379 variants remaining.
-Using up to 8 threads (change this with --threads).
-Before main variant filters, 504 founders and 0 nonfounders present.
-Calculating allele frequencies... done.
-Total genotyping rate is 0.992472.
-379 variants and 504 people pass filters and QC.
-Note: No phenotypes present.
---r2 square to sig_locus_mt_r2.ld ... done.
+Note: --keep-allele-order no longer has any effect.
+Error: --r2 has been replaced by --r2-phased and --r2-unphased.
+--r2-phased computes the textbook haplotype-frequency-based r^2, and
+corresponds to PLINK 1.9 --r2's behavior when the 'd', 'dprime', or
+'dprime-signed' modifier was present.  --r2-unphased computes the simpler r^2
+between (unphased) dosage vectors, and corresponds to how PLINK 1.x --r2
+behaved without a D'-related modifier.
+For more info, try "plink2 --help <flag name>" or "plink2 --help | more".
 
-End time: Fri Apr  4 16:31:18 2025
+End time: Mon Apr  7 09:57:24 2025
