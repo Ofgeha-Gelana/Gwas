@@ -15,52 +15,6 @@
 
 MAGMA is one of the most commonly used tools for gene-based and gene-set analysis. 
 
-!!! info "Overview of MAGMA"
-    <img width="700" alt="image" src="https://github.com/Cloufield/GWASTutorial/assets/40289485/3b0c887b-ead4-4146-ad01-c3693b9cff2f">
-
-
-**Gene-level analysis** in MAGMA uses two models:
-
-**1.Multiple linear principal components regression**
-
-MAGMA employs a multiple linear principal components regression, and F test to obtain P values for genes.
-The multiple linear principal components regression: 
-
-$$
-Y = \alpha_{0,g} + X_g \alpha_g + W \beta_g + \epsilon_g
-$$
-
-- $X_g$ : principal component matrix 
-- $\alpha_g$ : genetic effects
-- $W$ : covariate matrix
-- $\beta_g$ : effects of covariates 
-
-$X_g$ is obtained by first projecting the variant matrix of a gene onto its PC, and removing PCs with small eigenvalues.
-
-!!! note
-    The linear principal components regression model requires raw genotype data.
-
-**2.SNP-wise models**
-
-SNP-wise Mean: perform tests on mean SNP association
-
-!!! note
-    SNP-wise models use summary statistics and reference LD panel
-
-**Gene-set analysis**
-
-!!! quote
-    Competitive gene-set analysis tests whether the genes in a gene-set are more strongly associated with the phenotype of interest than other genes.
-
-P values for each gene were converted to Z scores to perform gene-set level analysis.
-
-$$
-Z = \beta_{0,S} + S_S \beta_S + \epsilon
-$$
-
-- $S_S$ : indicator (if the gene is in a specified gene set)
-- $\beta_S$ : difference in effects between genes in the specified set and genes outside the set.
-
 ### Install MAGMA
 Download MAGMA for your operating system from the following URL:
 
